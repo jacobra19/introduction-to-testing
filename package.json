@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
-        "test": "jest",
+        "test": "jest ./src",
         "test:integration": "yarn test ./src/components/App.spec.tsx --verbose --watchAll --coverage=true",
         "test:unit:list": "yarn test ./src/components/list --verbose --watchAll --coverage=true",
         "test:unit:helloworld": "yarn test ./src/components/hello-world --verbose --watchAll --coverage=true",
