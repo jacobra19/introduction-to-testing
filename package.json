@@ -7,10 +7,10 @@
         "dev": "vite",
         "build": "tsc && vite build",
         "test": "jest",
-        "test:list": "jest ./src/components/list --verbose --watchAll --coverage=true",
-        "test:helloworld": "jest ./src/components/hello-world --verbose --watchAll --coverage=true",
-        "test:topbar": "jest ./src/components/top-bar --verbose --watchAll --coverage=true",
-        "test:e2e": "jest -c jest.config.js",
+        "test:integration": "yarn test ./src/components/App.spec.tsx --verbose --watchAll --coverage=true",
+        "test:unit:list": "yarn test ./src/components/list --verbose --watchAll --coverage=true",
+        "test:unit:helloworld": "yarn test ./src/components/hello-world --verbose --watchAll --coverage=true",
+        "test:unit:topbar": "yarn test ./src/components/top-bar --verbose --watchAll --coverage=true",
         "preview": "vite preview"
     },
     "dependencies": {
