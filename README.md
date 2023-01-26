@@ -1,4 +1,4 @@
-Introduction to Testing
+![image](https://user-images.githubusercontent.com/24259837/214907478-4a4a9ee3-9660-4990-9184-d10a36c9b07a.png)
 
 `yarn test` to run the tests
 
